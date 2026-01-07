@@ -63,6 +63,7 @@
     margin-top: 30px;
 }
 
+
 /* main style  */
 
 header {
@@ -187,84 +188,155 @@ nav .menu a {
     color: #757575;
     margin-top: 30px;
 }
-.about-info .info-card h4{
+
+.about-info .info-card h4 {
     font-size: 20px;
     font-weight: bold;
     color: #474747;
 }
-#skills{
+
+#skills {
     padding-top: 130px;
 }
-#skills .skill-container{
+
+#skills .skill-container {
     width: 71%;
     max-width: 1920px;
     margin: 0 auto;
     /* border: 1px solid red; */
 }
 
-#skills .skill-container .skill-box{
+#skills .skill-container .skill-box {
     display: flex;
     gap: 24px;
     margin-top: 50px;
 }
-.skill-box .skill-card{
+
+.skill-box .skill-card {
     padding: 30px;
     max-width: 267px;
     box-shadow: 0 6px 50px 0 #00000010;
     border-radius: 10px;
     /* border: 1px solid green; */
 }
-.skill-box .skill-card img{
+
+.skill-box .skill-card img {
     max-width: 44px;
     margin-bottom: 30px;
 }
-.skill-box .skill-card h3{
+
+.skill-box .skill-card h3 {
     font-size: 20px;
     color: #181818;
     margin-bottom: 20px;
 }
-.skill-box .skill-card p{
+
+.skill-box .skill-card p {
     font-size: 16px;
     line-height: 28px;
     color: #757575;
 }
 
-#resume{
+#resume {
     padding-top: 130px;
 }
-#resume .resume-container{
+
+#resume .resume-container {
     width: 71%;
     max-width: 1920px;
     margin: 113px auto 0;
     display: flex;
     gap: 24px;
 }
-.resume-container .section-title{
+
+.resume-container .section-title {
     color: #474747;
     font-size: 30px;
     /* margin-bottom: 30px; */
 }
-.resume-card{
+
+.resume-card {
     max-width: 511px;
     margin-right: 47px;
     margin: 30px 0;
 }
-.resume-card .card-title{
+
+.resume-card .card-title {
     color: #474747;
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 10px;
-    
+
 }
-.resume-card .card-info{
+
+.resume-card .card-info {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.resume-card .card-text{
+
+.resume-card .card-text {
     font-size: 16px;
     line-height: 28px;
     color: #757575;
     margin-bottom: 30px;
+}
+
+.text-center {
+    text-align: center;
+    margin-right: 150px;
+    margin-top: 50px;
+
+    /* width: 71%;
+    max-width: 1920px; */
+    /* margin: 30px auto; */
+}
+
+footer {
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+footer #footer-container {
+    width: 71%;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+}
+
+#footer-container .social {
+    max-width: 562px;
+}
+
+#footer-container h2 {
+    color: #181818;
+    font-size: 35px;
+    /* font-weight: bold; */
+    margin-bottom: 20px;
+}
+
+#footer-container .social p {
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+#footer-container .icon a {
+    margin-right: 24px;
+}
+
+#footer-container form input[type="text"] ,
+#footer-container form textarea{
+    width: 461px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
 }
