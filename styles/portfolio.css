@@ -201,11 +201,7 @@ nav .menu a {
     margin: 0 auto;
     /* border: 1px solid red; */
 }
-#skills .skill-container .skill-heading {
-    /* max-width: 827px;
-    text-align: center;
-    margin: 0 auto; */
-}
+
 #skills .skill-container .skill-box{
     display: flex;
     gap: 24px;
